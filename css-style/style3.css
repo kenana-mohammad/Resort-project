@@ -1,0 +1,41 @@
+.item:hover{transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    z-index: 1;}
+    h4{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    span{display: flex;align-items: center;justify-content: center;color:#333;padding-bottom: 10px;}
+    .btn-book{font-size: 20px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;padding: 20px;}
+    .btn-book a:hover{background-color: rgb(223, 210, 26)!important;color: blue!important;opacity: 0.8;}
+   
+   body{background-color: rgba(211, 218, 221, 0.933);}
+   .tq{ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-style: italic; text-shadow: 4px 4px 4px 8px #cbced1;margin-top: 20px;}
+   .footer{ background-image: url("images/footer-bg-v3.jpg") ;margin-bottom: 0;background-repeat: no-repeat;background-size: cover;}
+   .icon{display: flex;align-items: center;justify-items: center;padding: 10px;}
+   i{padding: 10px;}
+   .title{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; letter-spacing: 3px;}
+   .add{transform: rotate(-180deg);width: 60px;align-items: center;}
+   .all-services{display: none;background-image: url("");background-size: cover;background-repeat: no-repeat;}
+   .add .mor2{position: relative;left: 200px;}
+   .b{padding-left:80px !important;padding-top: 60px;display: none;}
+   .b button{ margin-left: 100px!important;}
+   label{font-size: 20px;}
+   input{border: 0;background-color: antiquewhite;box-shadow: 10px 5px 10px rgba(77, 150, 182, 0.933);width: 200px;}
+   .card-s{ box-shadow: 5px 5px 10px royalblue;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    z-index: 2;margin: 10px;}
+    #done{display: none;}
+    /*form-book*/
+    .book{background-color: rgb(31, 121, 199);display: none;}
+    .input1{width: 200px;}
+    .input2{width: 469px;}
+	.footer-section{background-image: url(../img/a.jpg);background-repeat: no-repeat;background-size: cover;background-color: #b8b8b8;}
+.footer-section h2{color: #cbd8e0;}
+.footer-section a ,h4{color: #383a3d;}
+.footer-section .line4{height: 3px;width: 50px;color: #000;}   .icon{display: flex;align-items: center;justify-content: center;padding: 10px;}
+   i{padding: 10px;text-align: center;}

@@ -1,0 +1,13 @@
+.count{
+    font-size: 16px;
+border-radius: 0.4em;
+background-color: #21242b;
+color: #ffffff;
+border-bottom: 10px solid #1881f9;
+padding-right: 1px;
+margin-top: 150px;
+}
+.counter-i{background-image: linear-gradient(to right , rgba(135, 151, 149, 0.527),rgb(87, 165, 201));height: 500px;}
+.icon-count{color: #d7ff23;font-size: 2.5em;padding: 10px 0; text-align: center;}
+.num{font-size: 3em;font-weight: 400;}
+.text-count{font-weight: 200;font-size: 20px ;padding-bottom: 10px;}

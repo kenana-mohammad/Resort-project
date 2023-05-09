@@ -1,0 +1,349 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css-style/style1.css">
+     
+
+    <script>
+            function finalCost(){
+                var foodItem = document.getElementById("food_item").value;
+                var specialItemm = document.getElementById("special_item").value;
+                var foodQuatity = document.getElementById("food_quantity").value;
+                var deliveryType = document.getElementById("delivery_type").value;
+                var deliveryArea = document.getElementById("delivery_area").value;
+    
+                var all_food = (parseInt(foodItem)*7) + (parseInt(specialItemm)*3) + ((foodQuatity)*2) + (parseInt(deliveryType)*4) + (parseInt(deliveryArea)*3)
+                document.getElementById("result").innerHTML = all_food;
+            }
+            function ok_result(){
+                document.getElementById("okResult").style.display="block";
+                document.getElementById("okResult").style.backgroundColor="#DCE775";
+                document.getElementById("input_box").style.display="none";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="container-fluid">   
+                                        
+        
+            <nav class=" top-nav navbar navbar-expand-lg  navbar-dark ">
+                <div class="container">
+                  <a class="navbar-brand" href="#">Relax</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav  me-auto mb-2 mb-lg-0 ms-lg-5  ">
+                <li class="nav-item">
+                  <a class="nav-link active fs-5" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#about">About</a>
+                </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#services">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#section">section</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#gallery">gallery</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link fs-5" href="#call us">call us</a>
+                </li>
+                 </ul>
+              <div class="d-flex" > <a class="nav-link text-light"> login</a><a class="nav-link text-light"> register</a>
+                
+            </div>
+          </div></div>
+    
+            </nav></div></div>
+
+        <div class="f1">
+                <br/> <br/> <br/> 
+            
+                    <br/>
+                    <div class="container">
+                            <div class="row">
+                           <div class="col-6">
+                                <div class="text-center">
+                             <h1 style="color:rgb(15, 17, 189)"> Oriental Food</h1></div>
+                             <br/>
+                             <div class="container">
+                             <div class="row">
+                             <div class="col-3">
+                              <div class="card5">
+                                 <img src="img/mansaf.jpg" class="card-img5">
+                                    <div class="card-body">
+                                     <h6 class="card-title"> Mansaf </h6>
+                                     
+                                         <p class="card-text">100$</p>
+                                   </div>
+                                    </div>
+                             </div>
+                             <div class="col-3">
+                                    <div class="card5">
+                                       <img src="img/kepeh.jpg" class="card-img5">
+                                          <div class="card-body">
+                                           <h6 class="card-title">KEBEH</h6>
+                                               <p class="card-text">70$</p>
+                                         </div>
+                                          </div>
+                                   </div>
+                                   <div class="col-3">
+                                        <div class="card5">
+                                           <img src="img/sheesh.jpg" class="card-img5">
+                                              <div class="card-body">
+                                               <h6 class="card-title">SHEESH</h6>
+                                                   <p class="card-text">100$</p>
+                                             </div>
+                                              </div>
+                                       </div>
+                                       <div class="col-3">
+                                            <div class="card5">
+                                               <img src="img/mahashe.jpg" class="card-img5">
+                                                  <div class="card-body">
+                                                   <h6 class="card-title">Mhashe</h6>
+                                                       <p class="card-text">150$</p>
+                                                 </div>
+                                                  </div>
+                                           </div>
+                                           <div class="col-3">
+                                                <div class="card5">
+                                                   <img src="img/kabab.jpg" class="card-img5">
+                                                      <div class="card-body">
+                                                       <h6 class="card-title">Kabab</h6>
+                                                           <p class="card-text">120$</p>
+                                                     </div>
+                                                      </div>
+                                               </div>
+                                               <div class="col-3">
+                                                    <div class="card5">
+                                                       <img src="img/samak.jpg" class="card-img5">
+                                                          <div class="card-body">
+                                                           <h6 class="card-title">Samak</h6>
+                                                               <p class="card-text">130$</p>
+                                                         </div>
+                                                          </div>
+                                                   </div>
+                                                   <div class="col-3">
+                                                        <div class="card5">
+                                                           <img src="img/kabseh.jpg" class="card-img5">
+                                                              <div class="card-body">
+                                                               <h6 class="card-title">Kabsah</h6>
+                                                                   <p class="card-text">100$</p>
+                                                             </div>
+                                                              </div>
+                                                       </div>
+                                                       <div class="col-3">
+                                                            <div class="card5">
+                                                               <img src="img/mtabl.jpg" class="card-img5">
+                                                                  <div class="card-body">
+                                                                   <h6 class="card-title">Mtabl</h6>
+                                                                       <p class="card-text">70$</p>
+                                                                 </div>
+                                                                  </div>
+                                                           </div>
+                           </div>
+                           </div></div>
+                           
+                               <div class="col-6">
+                                    <div class="text-center">
+                                 <h1 style="color:rgb(15, 17, 189)"> Western food</h1></div> <br/>
+                                 <div class="container">
+                                 <div class="row">
+                                 <div class="col-3">
+                                  <div class="card5">
+                                     <img src="img/bergr.jpg" class="card-img5">
+                                        <div class="card-body">
+                                         <h6 class="card-title"> Burger </h6>
+                                         
+                                             <p class="card-text">100$</p>
+                                       </div>
+                                        </div>
+                                 </div>
+                                 <div class="col-3">
+                                        <div class="card5">
+                                           <img src="img/pizza.webp" class="card-img5">
+                                              <div class="card-body">
+                                               <h6 class="card-title"> Pizza </h6>
+                                               
+                                                   <p class="card-text">120$</p>
+                                             </div>
+                                              </div>
+                                       </div>
+                                       <div class="col-3">
+                                            <div class="card5">
+                                               <img src="img/crispy.jpg" class="card-img5">
+                                                  <div class="card-body">
+                                                   <h6 class="card-title"> Crispy </h6>
+                                                   
+                                                       <p class="card-text">110$</p>
+                                                 </div>
+                                                  </div>
+                                           </div>
+                                           <div class="col-3">
+                                                <div class="card5">
+                                                   <img src="img/fahita.jpg" class="card-img5">
+                                                      <div class="card-body">
+                                                       <h6 class="card-title">Fahita </h6>
+                                                       
+                                                           <p class="card-text">130$</p>
+                                                     </div>
+                                                      </div>
+                                               </div>
+                                               <div class="col-3">
+                                                    <div class="card5">
+                                                       <img src="img/soshi.jpg" class="card-img5">
+                                                          <div class="card-body">
+                                                           <h6 class="card-title"> Sushi </h6>
+                                                           
+                                                               <p class="card-text">180$</p>
+                                                         </div>
+                                                          </div>
+                                                   </div>
+                                                   <div class="col-3">
+                                                        <div class="card5">
+                                                           <img src="img/picata.webp" class="card-img5">
+                                                              <div class="card-body">
+                                                               <h6 class="card-title">Picata </h6>
+                                                               
+                                                                   <p class="card-text">130$</p>
+                                                             </div>
+                                                              </div>
+                                                       </div>
+
+                                                       <div class="col-3">
+                                                            <div class="card5">
+                                                               <img src="img/caviar.jpg" class="card-img5">
+                                                                  <div class="card-body">
+                                                                   <h6 class="card-title">Caviar </h6>
+                                                                   
+                                                                       <p class="card-text">180$</p>
+                                                                 </div>
+                                                                  </div>
+                                                           </div>
+                                                           <div class="col-3">
+                                                                <div class="card5">
+                                                                   <img src="img/pasta.webp" class="card-img5">
+                                                                      <div class="card-body">
+                                                                       <h6 class="card-title">Pasta </h6>
+                                                                       
+                                                                           <p class="card-text">120$</p>
+                                                                     </div>
+                                                                      </div>
+                                                               </div>
+                                </div></div></div>
+                                </div></div></div>
+                                <br/><br/>
+                                <div class="text-center mb-3">
+                                        <h1 style="color:rgb(15, 17, 189)">For Delivery</h1>
+                                        <div class="empty">________________</div>
+                                        
+                                <div class="online_food_delivery_box animated bounceInDown" id="input_box">
+                                        <h3> Online Food Delivery </h3><br>
+                                        <form>
+                                            <div class="form-group">
+                                                <select class="form-control" id="food_item" onchange="finalCost()">
+                                                    <option value="0"> Select Food Item ... </option>
+                                                    <option value="1"> Spring Roll </option>
+                                                    <option value="2"> Fried Prawn </option>
+                                                    <option value="3"> Thai Fried Chicken Wings  </option>
+                                                    <option value="4"> Cutlet Chicken </option>
+                                                    <option value="5"> Cutlet Beef  </option>
+                                                    <option value="6"> Thai Mixed Noodles  </option>
+                                                    <option value="7"> Thai Beef With Ginger </option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <select class="form-control" id="special_item" onchange="finalCost()">
+                                                    <option value="0"> Want Special Item ?</option>
+                                                    <option value="2"> Yes </option>
+                                                    <option value="0"> No </option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="number" class="form-control" id="food_quantity" placeholder="Quantity" onkeyup="finalCost()" >
+                                            </div>
+                                            <div class="form-group">
+                                                <select class="form-control" id="delivery_type" onchange="finalCost()">
+                                                    <option value="0"> Delivery Type - </option>
+                                                    <option value="0"> Normal </option>
+                                                    <option value="2"> Emergency </option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <select class="form-control" id="delivery_area" onchange="finalCost()">
+                                                    <option value="0"> Select Delivery Area ... </option>
+                                                    <option value="1"> Dhanmondi </option>
+                                                    <option value="2"> Gulshan </option>
+                                                    <option value="3"> Mohammadpur  </option>
+                                                    <option value="4"> Uttara </option>
+                                                    <option value="5"> Mirpur  </option>
+                                                    <option value="6"> Banani  </option>
+                                                    <option value="7"> Magbazar </option>
+                                                </select>
+                                            </div><br>
+                                            <div class="form-group">
+                                                <label>Total Cost ($) : </label>
+                                                <span id="result" style="background-color: #8c7269;color: #fff;padding: 6px 70px;font-weight: 600;font-size: 18px; margin-left: 10px;border-radius: 5px;">0</span>
+                                                <input type="button" value="SUBMIT" class="btn btn-primary" style="float: right" id="ok" onclick="ok_result()">
+                                            </div>
+                                        </form>
+                                    </div>
+                              
+                                    <div class="result_box animated zoomIn" style="display: none;" id="okResult">
+                                        <h3 class="result_box_text" id="ok_text"> Your order is successfully submitted. Please keep patience, we will come to you soon.<br><br><span> --  Thank You  -- </span></h3><br>
+                                    </div>
+                              <!-- footer -->
+                                    <div class="footer-section mt-5">
+  <div class="container-fluid mt-top">
+ 
+   <div class="row">
+     <div class="col-6">
+       <h2>Relax</h2>
+       <div class="line4"></div>
+       <h6>Our resortprovides many services. <em> for more information, please visit our website</em></h6>
+       <span class="text-center"><a href="#" class=" bg-primary rounded-pill m-2"> <i class="fa fa-facebook-official text-white rounded-pill  text-center "></i> </a>
+         <a href="#" class=" bg-primary rounded-pill">  <i class="fa fa-linkedin text-white rounded-pill "></i></a>
+          <a href="#"class=" bg-primary rounded-pill"> <i class="fa fa-phone text-white rounded-pill "></i></a>
+       </span>
+     </div>
+     <div class="col-6">
+       <div class="row">
+         <div class="col-4">
+           <h2 class="text-primery">usfel-link</h2>
+           <div class="line4"></div>
+           <a  class="text-decoration-none"href="#home">Home</a><br>
+           <a  class="text-decoration-none" href="#about">about</a><br>
+           <a class="text-decoration-none"  href="#section">section</a><br>
+           <a  class="text-decoration-none" href="#services">services</a>
+           
+         </div>
+       
+       
+         <div class="col-6 ms-4">
+           <h2 class="text-primery">our-services</h2>
+           <div class="line4"></div>
+           <h4>testy-food</h4>
+           <h4>Room-Booking</h4>
+           <h4>party</h4>
+         </div>
+         
+       </div>
+     
+     </div>
+   </div>
+ </div></div>>
+        </body>
+        </html>
